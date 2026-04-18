@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Briefcase, Gavel, Handshake, DollarSign } from 'lucide-react';
+import { Briefcase, Gavel, Handshake, DollarSign, FileText, Zap, Shield } from 'lucide-react';
 import { practiceAreas } from '../data/mockData';
 import { useTranslation } from 'react-i18next';
 
@@ -8,6 +8,9 @@ const iconMap = {
   Gavel: Gavel,
   Handshake: Handshake,
   DollarSign: DollarSign,
+  FileText: FileText,
+  Zap: Zap,
+  Shield: Shield,
 };
 
 export default function PracticeAreas() {

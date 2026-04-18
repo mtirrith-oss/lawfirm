@@ -99,8 +99,22 @@ export default function LawyerDirectory() {
                     <div className="w-12 h-12 bg-grey-mid rounded-full mb-6">
                       <img src={lawyer.photo} alt={lawyer.name} className="w-full h-full object-cover rounded-full mix-blend-multiply opacity-80" />
                     </div>
-                    <h3 className="text-xl font-serif mb-1">{lawyer.name}</h3>
+                    <div className="flex justify-between items-start mb-1">
+                      <h3 className="text-xl font-serif">{lawyer.name}</h3>
+                      <span className="text-[10px] font-bold text-secondary bg-secondary/5 px-2 py-0.5 rounded-full">
+                        {lawyer.yearsOfExperience}+ YRS
+                      </span>
+                    </div>
                     <p className="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold mb-4">{lawyer.title[currentLang]} | {lawyer.offices[0]}</p>
+                    
+                    {lawyer.barAdmissions.length > 0 && (
+                      <div className="flex items-center gap-2 mb-4">
+                        <span className="text-[9px] uppercase tracking-widest font-bold text-on-surface p-1 border border-grey-mid rounded-sm">
+                          {lawyer.barAdmissions[0]}
+                        </span>
+                      </div>
+                    )}
+                    
                     <p className="text-sm text-on-surface-variant leading-relaxed line-clamp-2">
                       {lawyer.bio[currentLang]}
                     </p>

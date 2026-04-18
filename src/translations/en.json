@@ -8,17 +8,18 @@
     "contact": "Contact Firm"
   },
   "hero": {
+    "tagline": "Global Legal Expertise. Local Precision.",
     "title": "Elite Counsel for the Global Frontier.",
-    "subtitle": "Strategically positioning multinational entities at the forefront of global legislation. Uncompromising precision for the world's most complex jurisdictions.",
-    "cta": "Contact Firm"
+    "subtitle": "Krijger Cornelis Associates is an international law firm advising corporations, financial institutions, governments, and high-net-worth individuals on complex cross-border legal matters.",
+    "cta": "Request Consultation"
   },
   "practice": {
     "label": "Core Competencies",
-    "title": "Sovereign Practice Areas",
+    "title": "Explore Our Expertise",
     "details": "Details"
   },
   "directory": {
-    "title": "Professionals",
+    "title": "Find a Lawyer",
     "search": "Search...",
     "viewProfile": "View Profile",
     "location": "Location",
@@ -30,20 +31,43 @@
     "label": "Firm Insights",
     "title": "Legislative Analysis",
     "subtitle": "Expert commentary on evolving global legal frameworks and their impact on private enterprise.",
-    "cta": "Access the Archive",
+    "cta": "View Insights",
     "readMore": "Read Analysis"
   },
   "footer": {
-    "about": "A global alliance of legal practitioners dedicated to the preservation of corporate excellence and private legacy through intellectual rigour and strategic discretion.",
+    "about": "Krijger Cornelis Associates is an international law firm advising corporations, financial institutions, governments, and high-net-worth individuals on complex cross-border legal matters. With a presence across Europe and the United States, the firm delivers strategic, commercially focused legal solutions in high-stakes environments.",
     "nav": "Navigation",
     "offices": "Global Offices",
     "legal": "Legal",
     "secure": "Secure Server: Zurich-Alpha Connected",
     "rights": "© 2024 KRIJGER CORNELIS ASSOCIATES LLP. ALL RIGHTS RESERVED."
   },
+  "trust": {
+    "signals": [
+      "Advising $10B+ Annually",
+      "7 Global Jurisdictions",
+      "Multilingual Legal Teams",
+      "Tier 1 Corporate & Dispute"
+    ]
+  },
+  "sectors": {
+    "label": "Market Verticals",
+    "title": "Industry Specialization"
+  },
+  "matters": {
+    "label": "Credibility",
+    "title": "Representative Matters",
+    "viewDetails": "View Details"
+  },
+  "careers": {
+    "label": "Join the Firm",
+    "title": "Cultivating the Future of International Law.",
+    "viewOpenings": "View Openings",
+    "pathways": "Career Pathways"
+  },
   "booking": {
     "label": "Inquiry",
-    "title": "Schedule a Consultation",
+    "title": "Schedule a confidential consultation with our legal team.",
     "subtitle": "Our associates will review your case and contact you within 24 business hours.",
     "phase": "Phase I",
     "responseTimeLabel": "Response Time",

@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Navbar() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
@@ -50,6 +50,13 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-4">
+          <Link 
+            to={`/${i18n.language}/portal`}
+            className="hidden sm:flex items-center gap-2 px-3 py-1.5 border border-grey-mid rounded-sm hover:border-secondary transition-colors group"
+          >
+            <div className="w-1.5 h-1.5 rounded-full bg-secondary opacity-0 group-hover:opacity-100 transition-opacity" />
+            <span className="text-[10px] font-bold uppercase tracking-widest text-on-surface">Client Portal</span>
+          </Link>
           <LanguageSwitcher />
           <button 
             onClick={() => window.dispatchEvent(new CustomEvent('open-booking'))}

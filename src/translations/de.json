@@ -8,17 +8,18 @@
     "contact": "Kanzlei kontaktieren"
   },
   "hero": {
+    "tagline": "Globale Rechtsexperten. Lokale Präzision.",
     "title": "Elite-Beratung für die globale Front.",
-    "subtitle": "Strategische Positionierung multinationaler Unternehmen an der Spitze der weltweiten Gesetzgebung. Kompromisslose Präzision für die komplexesten Gerichtsbarkeiten der Welt.",
-    "cta": "Kanzlei kontaktieren"
+    "subtitle": "Krijger Cornelis Associates ist eine internationale Anwaltskanzlei, die Unternehmen, Finanzinstitute, Regierungen und vermögende Privatpersonen in komplexen grenzüberschreitenden Rechtsangelegenheiten berät.",
+    "cta": "Beratung anfragen"
   },
   "practice": {
     "label": "Kernkompetenzen",
-    "title": "Souveräne Rechtsgebiete",
+    "title": "Unsere Expertise erkunden",
     "details": "Details"
   },
   "directory": {
-    "title": "Experten",
+    "title": "Anwalt finden",
     "search": "Suche...",
     "viewProfile": "Profil ansehen",
     "location": "Standort",
@@ -30,20 +31,43 @@
     "label": "Kanzlei-Insights",
     "title": "Legislative Analyse",
     "subtitle": "Expertenkommentare zu sich entwickelnden globalen rechtlichen Rahmenbedingungen und deren Auswirkungen auf die Privatwirtschaft.",
-    "cta": "Zum Archiv",
+    "cta": "Analysen ansehen",
     "readMore": "Analyse lesen"
   },
   "footer": {
-    "about": "Eine globale Allianz von Rechtspraktikern, die sich der Wahrung unternehmerischer Exzellenz und privatem Erbe durch intellektuelle Strenge und strategische Diskretion widmet.",
+    "about": "Krijger Cornelis Associates ist eine internationale Anwaltskanzlei, die Unternehmen, Finanzinstitute, Regierungen und vermögende Privatpersonen in komplexen grenzüberschreitenden Rechtsangelegenheiten berät. Mit einer Präsenz in Europa und den Vereinigten Staaten liefert die Kanzlei strategische, geschäftsorientierte Rechtslösungen in anspruchsvollen Umgebungen.",
     "nav": "Navigation",
     "offices": "Globale Büros",
     "legal": "Rechtliches",
     "secure": "Sicherer Server: Zürich-Alpha verbunden",
     "rights": "© 2024 KRIJGER CORNELIS ASSOCIATES LLP. ALLE RECHTE VORBEHALTEN."
   },
+  "trust": {
+    "signals": [
+      "Beratung $10Md+ Jährlich",
+      "7 Globale Rechtsräume",
+      "Multilinguale Expertenteams",
+      "Tier 1 Corporate & Dispute"
+    ]
+  },
+  "sectors": {
+    "label": "Marktvertikale",
+    "title": "Branchenspezialisierung"
+  },
+  "matters": {
+    "label": "Glaubwürdigkeit",
+    "title": "Repräsentative Mandate",
+    "viewDetails": "Details anzeigen"
+  },
+  "careers": {
+    "label": "Kanzlei beitreten",
+    "title": "Die Zukunft des internationalen Rechts gestalten.",
+    "viewOpenings": "Offene Stellen",
+    "pathways": "Karrierewege"
+  },
   "booking": {
     "label": "Anfrage",
-    "title": "Beratungsgespräch vereinbaren",
+    "title": "Vereinbaren Sie ein vertrauliches Beratungsgespräch mit unserem Juristenteam.",
     "subtitle": "Unsere Mitarbeiter werden Ihren Fall prüfen und sich innerhalb von 24 Geschäftsstunden bei Ihnen melden.",
     "phase": "Phase I",
     "responseTimeLabel": "Reaktionszeit",

@@ -10,12 +10,19 @@ import { useTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import PracticeAreas from './components/PracticeAreas';
+import Industries from './components/Industries';
+import RepresentativeMatters from './components/RepresentativeMatters';
+import RegulatoryTracker from './components/RegulatoryTracker';
 import LawyerDirectory from './components/LawyerDirectory';
 import InsightsSection from './components/InsightsSection';
+import CareersSection from './components/CareersSection';
 import Footer from './components/Footer';
 import BookingModal from './components/BookingModal';
+import AIAssistant from './components/AIAssistant';
+import PortalDashboard from './components/portal/PortalDashboard';
 
 function HomePage() {
+  const { t } = useTranslation();
   return (
     <main>
       <Hero />
@@ -24,23 +31,29 @@ function HomePage() {
       <section className="bg-surface border-y border-grey-mid py-12">
         <div className="max-w-7xl mx-auto px-10">
           <div className="flex flex-wrap justify-between items-center gap-12 opacity-60">
-            {['FORTUNE 500', 'GLOBAL WEALTH', 'LEX MUNDI', 'CHAMBERS TOP', 'EU REGISTRY'].map(logo => (
-              <span key={logo} className="text-xl font-serif tracking-[0.1em]">{logo}</span>
+            {t('trust.signals', { returnObjects: true }) instanceof Array && (t('trust.signals', { returnObjects: true }) as string[]).map((signal: string) => (
+              <span key={signal} className="text-[13px] font-bold uppercase tracking-[0.2em] text-on-surface">
+                {signal}
+              </span>
             ))}
           </div>
         </div>
       </section>
 
       <PracticeAreas />
+      <Industries />
+      <RepresentativeMatters />
+      <RegulatoryTracker />
       <LawyerDirectory />
       <InsightsSection />
+      <CareersSection />
     </main>
   );
 }
 
 function LanguageWrapper() {
   const { lng } = useParams();
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
   const supportedLngs = ['en', 'fr', 'de'];
@@ -64,12 +77,19 @@ function LanguageWrapper() {
     <>
       <Helmet>
         <html lang={lng} />
+        <title>{lng === 'en' ? 'Krijger Cornelis Associates | Global Law Firm' : lng === 'fr' ? 'Krijger Cornelis Associates | Cabinet d\'Avocats Mondial' : 'Krijger Cornelis Associates | Globale Rechtsanwaltskanzlei'}</title>
+        <meta name="description" content={t('hero.subtitle')} />
+        <meta name="keywords" content="international law firm, cross-border legal services, global corporate lawyers, arbitration, dispute resolution, multinational legal advisory" />
         <link rel="alternate" hrefLang="en" href={`${window.location.origin}/en`} />
         <link rel="alternate" hrefLang="fr" href={`${window.location.origin}/fr`} />
         <link rel="alternate" hrefLang="de" href={`${window.location.origin}/de`} />
         <link rel="alternate" hrefLang="x-default" href={`${window.location.origin}/en`} />
       </Helmet>
-      <HomePage />
+      
+      <Routes>
+        <Route index element={<HomePage />} />
+        <Route path="portal" element={<PortalDashboard />} />
+      </Routes>
     </>
   );
 }
@@ -96,6 +116,7 @@ export default function App() {
           </Routes>
 
           <Footer />
+          <AIAssistant />
           <BookingModal isOpen={isBookingOpen} onClose={() => setIsBookingOpen(false)} />
           
           <script dangerouslySetInnerHTML={{ __html: `

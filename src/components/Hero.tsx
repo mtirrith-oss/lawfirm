@@ -15,6 +15,10 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
             className="max-w-xl"
           >
+            <span className="text-secondary font-bold text-[11px] uppercase tracking-[0.3em] block mb-8">
+              {t('hero.tagline')}
+            </span>
+            
             <h1 className="text-[42px] leading-[1.1] font-serif mb-12">
               {t('hero.title')}
             </h1>
