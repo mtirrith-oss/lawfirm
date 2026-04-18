@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "professionals": "Professionals",
+    "practiceAreas": "Practice Areas",
+    "insights": "Insights",
+    "presence": "Global Presence",
+    "about": "About",
+    "contact": "Contact Firm"
+  },
+  "hero": {
+    "title": "Elite Counsel for the Global Frontier.",
+    "subtitle": "Strategically positioning multinational entities at the forefront of global legislation. Uncompromising precision for the world's most complex jurisdictions.",
+    "cta": "Contact Firm"
+  },
+  "practice": {
+    "label": "Core Competencies",
+    "title": "Sovereign Practice Areas",
+    "details": "Details"
+  },
+  "directory": {
+    "title": "Professionals",
+    "search": "Search...",
+    "viewProfile": "View Profile",
+    "location": "Location",
+    "practiceArea": "Practice Area",
+    "allOffices": "All Offices",
+    "allExpertise": "All Expertise"
+  },
+  "insights": {
+    "label": "Firm Insights",
+    "title": "Legislative Analysis",
+    "subtitle": "Expert commentary on evolving global legal frameworks and their impact on private enterprise.",
+    "cta": "Access the Archive",
+    "readMore": "Read Analysis"
+  },
+  "footer": {
+    "about": "A global alliance of legal practitioners dedicated to the preservation of corporate excellence and private legacy through intellectual rigour and strategic discretion.",
+    "nav": "Navigation",
+    "offices": "Global Offices",
+    "legal": "Legal",
+    "secure": "Secure Server: Zurich-Alpha Connected",
+    "rights": "© 2024 KRIJGER CORNELIS ASSOCIATES LLP. ALL RIGHTS RESERVED."
+  },
+  "booking": {
+    "label": "Inquiry",
+    "title": "Schedule a Consultation",
+    "subtitle": "Our associates will review your case and contact you within 24 business hours.",
+    "phase": "Phase I",
+    "responseTimeLabel": "Response Time",
+    "responseTimeValue": "Priority handled in < 24h",
+    "name": "Full Name",
+    "email": "Corporate Email",
+    "office": "Office Preference",
+    "routing": "Automated Routing (Nearest)",
+    "submit": "Initiate Case Review"
+  }
+}

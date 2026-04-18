@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "professionals": "Professionnels",
+    "practiceAreas": "Domaines d'expertise",
+    "insights": "Analyses",
+    "presence": "Présence Mondiale",
+    "about": "À Propos",
+    "contact": "Contacter le Cabinet"
+  },
+  "hero": {
+    "title": "Conseil d'élite pour les nouvelles frontières mondiales.",
+    "subtitle": "Positionnement stratégique des entités multinationales à l'avant-garde de la législation mondiale. Une précision sans compromis pour les juridictions les plus complexes au monde.",
+    "cta": "Contacter le Cabinet"
+  },
+  "practice": {
+    "label": "Compétences Clés",
+    "title": "Domaines d'expertise souverains",
+    "details": "Détails"
+  },
+  "directory": {
+    "title": "Professionnels",
+    "search": "Rechercher...",
+    "viewProfile": "Voir le Profil",
+    "location": "Lieu",
+    "practiceArea": "Domaine d'expertise",
+    "allOffices": "Tous les Bureaux",
+    "allExpertise": "Toutes les Expertises"
+  },
+  "insights": {
+    "label": "Analyses du Cabinet",
+    "title": "Analyse Législative",
+    "subtitle": "Commentaires d'experts sur l'évolution des cadres juridiques mondiaux et leur impact sur l'entreprise privée.",
+    "cta": "Accéder aux Archives",
+    "readMore": "Lire l'Analyse"
+  },
+  "footer": {
+    "about": "Une alliance mondiale de praticiens du droit dédiée à la préservation de l'excellence corporative et de l'héritage privé par la rigueur intellectuelle et la discrétion stratégique.",
+    "nav": "Navigation",
+    "offices": "Bureaux Mondiaux",
+    "legal": "Juridique",
+    "secure": "Serveur Sécurisé : Connexion Zurich-Alpha",
+    "rights": "© 2024 KRIJGER CORNELIS ASSOCIATES LLP. TOUS DROITS RÉSERVÉS."
+  },
+  "booking": {
+    "label": "Demande",
+    "title": "Planifier une Consultation",
+    "subtitle": "Nos collaborateurs examineront votre dossier et vous contacteront dans les 24 heures ouvrables.",
+    "phase": "Phase I",
+    "responseTimeLabel": "Délai de Réponse",
+    "responseTimeValue": "Priorité traitée en < 24h",
+    "name": "Nom Complet",
+    "email": "Email Professionnel",
+    "office": "Préférence de Bureau",
+    "routing": "Routage Automatisé (Plus proche)",
+    "submit": "Initier l'Examen du Dossier"
+  }
+}

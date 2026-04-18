@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "professionals": "Experten",
+    "practiceAreas": "Rechtsgebiete",
+    "insights": "Analysen",
+    "presence": "Globale Präsenz",
+    "about": "Über Uns",
+    "contact": "Kanzlei kontaktieren"
+  },
+  "hero": {
+    "title": "Elite-Beratung für die globale Front.",
+    "subtitle": "Strategische Positionierung multinationaler Unternehmen an der Spitze der weltweiten Gesetzgebung. Kompromisslose Präzision für die komplexesten Gerichtsbarkeiten der Welt.",
+    "cta": "Kanzlei kontaktieren"
+  },
+  "practice": {
+    "label": "Kernkompetenzen",
+    "title": "Souveräne Rechtsgebiete",
+    "details": "Details"
+  },
+  "directory": {
+    "title": "Experten",
+    "search": "Suche...",
+    "viewProfile": "Profil ansehen",
+    "location": "Standort",
+    "practiceArea": "Rechtsgebiet",
+    "allOffices": "Alle Standorte",
+    "allExpertise": "Alle Fachgebiete"
+  },
+  "insights": {
+    "label": "Kanzlei-Insights",
+    "title": "Legislative Analyse",
+    "subtitle": "Expertenkommentare zu sich entwickelnden globalen rechtlichen Rahmenbedingungen und deren Auswirkungen auf die Privatwirtschaft.",
+    "cta": "Zum Archiv",
+    "readMore": "Analyse lesen"
+  },
+  "footer": {
+    "about": "Eine globale Allianz von Rechtspraktikern, die sich der Wahrung unternehmerischer Exzellenz und privatem Erbe durch intellektuelle Strenge und strategische Diskretion widmet.",
+    "nav": "Navigation",
+    "offices": "Globale Büros",
+    "legal": "Rechtliches",
+    "secure": "Sicherer Server: Zürich-Alpha verbunden",
+    "rights": "© 2024 KRIJGER CORNELIS ASSOCIATES LLP. ALLE RECHTE VORBEHALTEN."
+  },
+  "booking": {
+    "label": "Anfrage",
+    "title": "Beratungsgespräch vereinbaren",
+    "subtitle": "Unsere Mitarbeiter werden Ihren Fall prüfen und sich innerhalb von 24 Geschäftsstunden bei Ihnen melden.",
+    "phase": "Phase I",
+    "responseTimeLabel": "Reaktionszeit",
+    "responseTimeValue": "Priorität bearbeitet in < 24h",
+    "name": "Vollständiger Name",
+    "email": "Unterstützende E-Mail",
+    "office": "Büro-Präferenz",
+    "routing": "Automatisiertes Routing (Nächstgelegenes)",
+    "submit": "Fallprüfung einleiten"
+  }
+}
